@@ -3,10 +3,10 @@ import { useSelector } from "react-redux";
 import { RootState } from "../app/store";
 import { useNavigate } from "react-router-dom";
 import { useAuth } from "../services/useAuth";
-import LogoutIcon from "@material-ui/icons/ExitToApp";
-import TaskIcon from "@material-ui/icons/Assignment";
-import InfoIcon from "@material-ui/icons/Info";
-import ActivityIcon from "@material-ui/icons/History";
+import LogoutIcon from "@mui/icons-material/ExitToApp";
+import TaskIcon from "@mui/icons-material/Assignment";
+import InfoIcon from "@mui/icons-material/Info";
+import ActivityIcon from "@mui/icons-material/History";
 
 const DashboardPage: React.FC = () => {
   const user = useSelector((state: RootState) => state.auth.user);
