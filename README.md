@@ -6,6 +6,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+## I have use node version 17.9.1 and you can install node modules with this command  `npm install --legacy-peer-deps`
+
 ### `npm start`
 
 Runs the app in the development mode.\
